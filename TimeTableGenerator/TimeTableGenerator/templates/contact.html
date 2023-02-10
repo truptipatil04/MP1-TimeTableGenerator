@@ -1,0 +1,51 @@
+{% include 'navbar.html' %}
+
+{% load static %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Generator</title>
+    <style>
+        footer{
+            font-size: large;
+            position: absolute;
+            bottom: 0;
+        }
+        h1{
+            font-size:x-large ;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p{
+            font-size:large ;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="dev">
+        <h1>Developers</h1><br><br>
+        <p>Nikita Shivchandra Khot</p>
+        <p>Trupti Rajendra Patil</p>
+        <p>Arya Sameer Taiwade</p>
+    </div><br><br><br>
+    <section id="footer">
+        <footer id="footer1">
+            <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright TimetableGenerator</p>
+        </footer>
+    </section>
+</body>
+</html>
+{% endblock %}

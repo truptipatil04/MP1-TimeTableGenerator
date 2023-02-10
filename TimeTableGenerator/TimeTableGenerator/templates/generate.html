@@ -1,0 +1,38 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Table Generator</title>
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="bg2">
+        <div class="intro2">
+            Start Generating By Giving Input
+            <div ><img id="i2" src="{% static 'account/img1.png' %}" alt="timetable"></div>
+        </div>
+        <div class="content">
+            <a style="color: white ; text-decoration:none" href="{% url 'ttg:displayBatch' %}"><button type="button" class="btn  c">Batches</button></a>
+            <a style="color: white; text-decoration:none" href="{% url 'ttg:displayRoom' %}"><button type="button" class="btn  c">Rooms</button></a>
+            <a style="color: white ; text-decoration:none" href="{% url 'ttg:displaySubject' %}"><button type="button" class="btn  c">Subjects</button></a>
+            <a style="color: white ; text-decoration:none" href="{% url 'ttg:displayTime' %}"><button type="button" class="btn  c">Time Period</button></a>
+        </div>
+        <div class="generate">
+            <a style="color: white ; text-decoration:none" href="{% url 'ttg:displayTimetable' %}"><button class="btn c">Generate</button></a>
+        </div>
+        
+    </div>
+   
+</body>
+
+</html>
+{% endblock %}

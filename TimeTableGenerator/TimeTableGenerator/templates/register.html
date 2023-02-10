@@ -1,0 +1,49 @@
+{% include "navbar.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, in
+    itial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+    <title>Timetable Generator</title>
+</head>
+
+<body>
+    <div class="container row">
+        <div class="registerform col-lg-6">
+            <form id="registration" action="" method="POST">
+                {% csrf_token %}
+                <b>Username         : </b><input id="txt" type="text" name="username" placeholder="  User Name"><br><br>
+                <b>First Name       : </b><input id="txt" type="text" name="firstname" placeholder="  First Name"><br><br>
+                <b>Last Name        : </b><input id="txt" type="text" name="lastname" placeholder="  Last Name"><br><br>
+                <b>Email            : </b><input id="txt" type="email" name="email" placeholder="  Email"><br><br>
+                <b>Password         : </b><input id="txt" type="password" name="password1" placeholder="  Password"><br><br>
+                <b>Confirm Password : </b><input id="txt" type="password" name="password2"
+                    placeholder="  Confirm Password"><br><br>
+
+                <input class="btn btn-primary register-btn" type="submit" value="Register"><br>
+                <a id="accexist" href="login">Already exist an account?</a>
+            </form>
+        </div>
+        
+        <div class="msgdiv0">
+            {% for message in messages %}
+            <h5>{{ message }}</h5>
+            {% endfor %}
+        </div>
+        
+        <!-- <img src="{% static 'account/r1.png' %}" alt="error"> -->
+        <!-- <div class=""> -->
+        <!-- </div> -->
+    </div>
+
+    <!-- {% include "contact.html" %} -->
+</body>
+
+</html>
+{% endblock %}

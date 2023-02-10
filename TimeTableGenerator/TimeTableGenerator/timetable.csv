@@ -1,0 +1,5 @@
+01:15-2:15,3:30-4:30,4:30-5:30,9:00-10:00
+"['EC', 'MS', 'ROOM NO.1', 'Monday', '01:15-2:15']","['COA', 'MS', 'ROOM NO.1', 'Monday', '3:30-4:30']","['DAA', 'MS', 'ROOM NO.1', 'Monday', '4:30-5:30']","['DAA', 'DA', 'ROOM NO.1', 'Monday', '9:00-10:00']"
+"['CD', 'MS', 'ROOM NO.1', 'Tuesday', '01:15-2:15']","['EC', 'MS', 'ROOM NO.1', 'Tuesday', '3:30-4:30']","['COA', 'MS', 'ROOM NO.1', 'Tuesday', '9:00-10:00']","['EE', 'MS', 'ROOM NO.1', 'Wednesday', '01:15-2:15']"
+"['EC', 'DA', 'ROOM NO.1', 'Wednesday', '3:30-4:30']","['EC', 'MS', 'ROOM NO.1', 'Wednesday', '4:30-5:30']","['DAA', 'DA', 'ROOM NO.1', 'Thursday', '01:15-2:15']","['COA', 'DA', 'ROOM NO.1', 'Thursday', '3:30-4:30']"
+"['EE', 'DA', 'ROOM NO.1', 'Thursday', '4:30-5:30']"

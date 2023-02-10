@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&family=Smooch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    padding-top: 20vh;
+    background-color: #e8d1e8;
+    font-family: 'Signika Negative', sans-serif;
+    height: 100vh;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .bg2 {
+    /* The image used */
+    padding-top: 20vh;
+    background-color:#e8d1e8 ;
+    font-family: 'Signika Negative', sans-serif;
+    color: aliceblue;    
+    height: 100vh;
+ 
+    
+
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+
+.log{
+    
+    align-items: center;
+    position: absolute;
+    right: 0vw;
+    
+}
+
+.intro{
+    margin: 0;
+    background-color: #8f528f;
+    position: absolute;
+    top:8vh;
+   
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    
+    text-overflow: clip;
+    /* position: absolute;
+    top: 8vh; */
+    width: 100vw;
+    height: 60vh;
+
+}
+.intro2{
+    
+    margin: 0;
+    background-color: #8f528f;
+    position: absolute;
+    top:8vh;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    
+    text-overflow: clip;
+    /* position: absolute;
+    top: 8vh; */
+    width: 100vw;
+    height: 35vh;
+}
+
+
+.text1{
+    margin-top: 2vh;
+    margin-left:5vw;
+    text-align: left;
+    font-size: 3rem;
+    
+    
+}
+.t2{
+    margin-left: 5vw;
+    text-align:left;
+    font-size: 2rem;
+    /* border: 2px solid white; */
+    cursor: pointer;
+}
+.b{
+    display: flex;
+}
+.t{
+    margin-left: 85px;
+    margin-top: 70px;
+    background-color: #e8d1e8;
+    border: 2px solidblack;
+    border-radius: 6px;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 200px;
+    /* position: absolute; */
+    left: 5vw;
+    top: 25vh;
+    padding: 5px;
+}
+.tn{
+    margin-left: 20px;
+    margin-top: 70px;
+    background-color: #e8d1e8;
+    border: 2px solidblack;
+    border-radius: 6px;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 100px;
+    /* position: absolute; */
+    left: 5vw;
+    top: 25vh;
+    padding: 5px;
+}
+#i1{
+    height: 50vh;
+    transform: rotate(30deg);
+    position: absolute;
+    /* right: 0vw;
+    top: 10vh; */
+}
+#i2
+{
+    height:30vh;
+   
+   
+}
+
+.content{
+    /* border: 2px solid white; */
+    
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+
+    
+
+}
+.c{
+    
+    border: 2px solid #8f528f;
+    border-radius: 10px;
+    background-color: #8f528f;
+    text-align: center;
+    /* height:10vh ;
+    width: 20vw; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(29, 168, 150);
+}
+/* #footer{
+    height:20ch;
+    width: 100%;
+    /* background-color: rgb(202, 237, 244); */
+    /* padding: 7% 15% 15% 15%;
+    /* margin-bottom: auto; */
+    /* text-align: center;
+    background-color:#e8d1e8 ;
+  } */ 
+  #footer{
+    height: 10vh;
+    /* display: list-item;
+    flex-direction: column; */
+    
+  }
+  #footer1{
+    width:20vw;
+    align-items: center;
+    position: absolute;
+    right: 40vw;
+    padding-top:2vh ;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  #cr{
+    position: fixed;
+    bottom: 0%;
+    padding-top: 2vh;
+    
+  }
+  .btn{
+    background-color: #8f528f;
+    width: 20vw;
+    height: 10vh;
+    font-size: xx-large;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    border-color: #8f528f;
+  }
+  .generate{
+   position: absolute;
+   left:40%
+  }
